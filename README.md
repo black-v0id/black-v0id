@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hello 👋
+- 📑 I am currently re-learning python, react, MongoDB, Node etc. 
+- 🌟 I am really interested in the connections between security, privacy and the average consumer
+
+Congratualtions on finding me, I look forward to making this place more my own in the near future. 
 
 <!--
 **black-v0id/black-v0id** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
