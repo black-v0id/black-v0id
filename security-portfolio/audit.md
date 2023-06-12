@@ -30,8 +30,9 @@ Ficticious company. Small U.S. business that develops and sells toys.
 
 ## Report
 
+<details>
+<summary> 🤔💡 Thought Process </summary>
 
-## 🤔💡 Thought Process 
 Here lies my thought process while formalizing the final documentation. 
 ### Info I Have
 **Scope/Goals/Deliverables (provided by situation)**
@@ -74,3 +75,7 @@ what are the biggest risks to the organization?
 
 which controls are most essential to implement immediately vs in the future?
     immediate: implement controls on accounting system that are alligned to NIST followed by firewall then ED then ID them SIEM tools,  
+
+
+
+</deatils>
