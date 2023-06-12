@@ -51,7 +51,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 
 
 ## Controls Assessment
-|     Administrative Controls   |
+### Administrative Controls   
 | Control Name  | Control type and detail | Needs to be implemented (X) | Priority |
 | ------------- | ----------------------- | --------------------------- | -------- |
 | Least Privilege  | Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data within their job scope | X  | MEDIUM |
@@ -62,7 +62,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 | Seperation of duties | Preventative; ensure access is appropriately mapped to employees | X | HIGH |
 
 
-|    Technical Controls    |
+### Technical Controls    
 | Control Name  | Control type and detail | Needs to be implemented (X) | Priority |
 | ------------- | ----------------------- | --------------------------- | -------- |
 | Firewall | Preventative; (already in place) |  |  |
@@ -78,7 +78,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 
 
 
-|    Physical Controls    |
+### Physical Controls
 | Control Name  | Control type and detail | Needs to be implemented (X) | Priority |
 | ------------- | ----------------------- | --------------------------- | -------- |
 | Time-controlled safe | Deterrent; reduce attack surface of physical threats |  |   |
