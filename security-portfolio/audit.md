@@ -30,9 +30,9 @@ Preform an audit of companys cybersecurity prorgam. The audit must align to curr
 All information was directly provided by the G00gle Certified Course. Some notes have been expanded upon due to lack of information. 
 
 ### Prioritization of Issues
-- HIGH: puts the company at risk and should be rectified as soon as possible
-- MEDIUM: chance of putting the company at risk but can be addressed in the future
-- LOW: issues should be addressed down the road in the future pending the resolution of both high and medium issues
+- 🔴 HIGH: puts the company at risk and should be rectified as soon as possible
+- 🟠 MEDIUM: chance of putting the company at risk but can be addressed in the future
+- 🟡 LOW: issues should be addressed down the road in the future pending the resolution of both high and medium issues
 - BLANK: no data indicating that this is a threat vector within the assessment scope
 
 ## Risk Assesment 
