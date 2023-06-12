@@ -36,7 +36,7 @@ All information was directly provided by the G00gle Certified Course. Some notes
 - BLANK: no data indicating that this is a threat vector within the assessment scope
 
 ## Risk Assesment 
-all of the following information was provided to me to assist in my evaluation of controls assessment and recomendations. 
+‼️ The following risk assessment was provided to me to assist in my evaluation of controls assessment and formal report. 
 ### Description 
 Currently, there is inadequate management of assets. Additionally, the compnay does not have the proper controls in place and may not be complaint with U.S. and international regulations and standards. 
 
