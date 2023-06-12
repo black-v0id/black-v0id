@@ -30,10 +30,10 @@ Ficticious company. Small U.S. business that develops and sells toys.
 
 ## Report
 
+## 🤔💡 Thought Process 
 <details>
-<summary> 🤔💡 Thought Process </summary>
+<summary>Here lies my thought process while formalizing the final documentation.</summary> 
 
-Here lies my thought process while formalizing the final documentation. 
 ### Info I Have
 **Scope/Goals/Deliverables (provided by situation)**
 - Assess IAM permissions, evaluate existing implemented controls, and assess present procedures and protocol sets for the following systems:
