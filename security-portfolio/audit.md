@@ -230,17 +230,20 @@ Managed by IT Dept:
 I find myself doing a lot of "... but what if" scenarios like "what if the network password is admin/admin" "what if there is 1 IT person running all of this" "what if there are some controls in place but not up to date with the growth and change of positions within the company" so I catch myself trying to refocus on the scope given and the explicit details I have. 
 
 ❓ what are the biggest risks to the organization?
-    - Legacy system management - that takes time and manpower which takes away from other tasks
-    - Business continuity outages via lack of controls & procedures - bringing in new team members is challenging and so is communicating with other departments due to a lack of policies, procedures and unified controls
-    - Security misconfiguration - if they aren't sure what the controls are/where the assets are then they have a major hole in the system for visibility 
-    - Compliance risk - if they are expanding into EU they must comply with GDPR before conducting business
+
+    - Legacy system management - that takes time and manpower which takes away from other tasks /
+    - Business continuity outages via lack of controls & procedures - bringing in new team members is challenging and so is communicating with other departments due to a lack of policies, procedures and unified controls /
+    - Security misconfiguration - if they aren't sure what the controls are/where the assets are then they have a major hole in the system for visibility /
+    - Compliance risk - if they are expanding into EU they must comply with GDPR before conducting business /
 
 ❓ which controls are most essential to implement immediately vs in the future?
+
     immediate: implement controls on firewall that are alligned to NIST followed by accounting system then ED then ID them SIEM tools; IAM controls via principle of least privilege; creating proesses and procedures with subsequent training/re-education of staff
     future: establish process for ensuring system is compliant; 
 
 ❓ which compliance regulations does the company need to adhere to, to ensure the company keeps customer and vendor data safe, avoids fines, etc.?
-    The compliance regulation to adhere to is the GDPR. The framework that is going to aid them in getting there is the NIST CSF which is mapped in further deatil by resourcrs such as NIST 800, ISO 2700 etc.
+
+    The compliance regulation to adhere to is the GDPR and PCI DSS. The framework that is going to aid them in getting there is the NIST CSF which is mapped in further deatil by resources such as NIST 800, ISO 2700 etc.
 
 
 
