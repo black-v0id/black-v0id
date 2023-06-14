@@ -37,6 +37,7 @@ All information was directly provided by the G00gle Certified Course. Some notes
 
 ## Risk Assesment 
 ‼️ The following risk assessment was provided to me to assist in my evaluation of controls assessment and formal report. 
+<details>
 ### Description 
 Currently, there is inadequate management of assets. Additionally, the company does not have the proper controls in place and may not be complaint with U.S. and international regulations and standards. 
 
@@ -48,9 +49,10 @@ On a scale on 1 to 10, the risk score is 8, which is fairly high. This is due to
 
 ### Additional Comments
 The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware which assets would be lost. The likelihood of a lost asset causing damage or recieving fines from a governing body is HIGH due to company not implementing all necessary conrols in addition to not adhering to required regulations and standards in keeping customer data private. 
-
+</details>
 
 ## Controls Assessment
+<details>
 ### Administrative Controls   
 | Control Name  | Control type and detail | Needs to be implemented (X) | Priority |
 | ------------- | ----------------------- | --------------------------- | -------- |
@@ -87,7 +89,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 | Signage indicating alarm service provider | Deterrent |  |  |
 | Locks | Preventative; physical and digital assets more secure | X | MEDIUM |
 | Fire detection and prevention | Detective/Preventative; prevents damage to inventory |  |  |
-
+</details>
 ## Summary of Findings
 | Severity | # of Findings |
 | -------- | ------------- |
@@ -97,6 +99,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 | NA | 7 | 
 
 ## Report
+<details>
 ### 🔴 HIGH 🔴
 #### Access control policies 
 **Recommendation**
@@ -168,6 +171,7 @@ Implement IDS to assit IT team in having a way to detect threats, respond to inc
 **Recommendation**
 
 Implement at headquarters to assist in identifying any security incident on site. 
+</details>
 
 ## Compliance Checklist
 The following section is an anlysis to critically identify which compliance regulations this ficticious company must comply to. 
