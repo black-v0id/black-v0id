@@ -106,55 +106,67 @@ Will satisfy GDPR requirement for compliance.
 
 #### Seperation of duties 
 **Recommendation**
+
 Reassess current job descriptions and duties held by existing staff. Based on review take necessary action such as expanding access, taking away access, creating new procedures, hiring in new staff, etc. 
 
 #### Encryption 
 **Recommendation**
+
 Ensure all critical assets and data are encrypted, particularly customer databases that include indentifying informaiton. This is a requirement for PCI DSS compliance. 
 
 #### Anti Virus Software
 **Recommendation**
+
 While taking inventory of assets, install anti-virus to protect devices from malicious intent. 
 
 #### Manual monitoring, maintenance, intervention 
 **Recommendation**
+
 Take necessary steps to upgrade/destroy assets which are considered legacy and add unnecessary strain to the IT team for management. 
 Any legacy system that is an accepted risk should take all other cautions available such as segrgating it from the network, ensuring proper access and passwords, frequent audits of system. 
 
 #### Locking cabinets (network gear)
 **Recommendation**
+
 Ensure networking gear is accounted for an accessible only by IT and necessary C suite members.
 
 
 ### 🟠 MEDIUM 🟠
 #### Account management policies 
 **Recommendation** 
+
 Establish policies and procedures so that there is a clear understanding amoung key stakeholders and IT deptment on what to expect from account creation, to account management, to account termination. 
 
 #### Least Privilege 
 **Recommendation** 
+
 Implement this core security principle to reduce attack surface and secure assets. 
 
 #### Backups
 **Recommendation**
+
 To protect data implement strategy to preform backups of critical assets. 
 
 #### Locks
 **Recommendation**
+
 Create secure area for IT team to house un-used physical assets to aid in keeping track of such assets.
 
 ### 🟡 LOW 🟡
 #### Disaster recovery  
 **Recommendation** 
+
 Develop a disaster recovery plan, while not explicity required by the GDPR it is empasized that there should be a appropriate security measures and ability to restore data in timely manner following incident. 
 Disaster recovery is considered best practice for ensuring business continuity, minimizing down time and protecting critical data/systems. 
 
 #### Intrusion Detection System
 **Recommendation**
+
 Implement IDS to assit IT team in having a way to detect threats, respond to incidents, get visibility on the network, and meet the requirement of the GDPR to implement technical measures to ensure the security of personal data.
 
 #### CCTV
 **Recommendation**
+
 Implement at headquarters to assist in identifying any security incident on site. 
 
 ## Compliance Checklist
