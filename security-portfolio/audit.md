@@ -185,7 +185,7 @@ This is a requirement that the compnay will need to comply with. Because it is n
 This regulation is not required to be met by the company because it does not work with health care data. 
 
 ### ❌ SOC type 1, SOC type 2
-This regulation is not required, however it is strongly encouraged to look to this documentation for guidance. Being that the company is a toy company it is not imperative that they seek out SOC I and SOC II certification. Additionally, this can be a costly certificxate to obtain. 
+This regulation is not required, however it is strongly encouraged to look to this documentation for guidance. Being that the company is a toy company it is not imperative that they seek out SOC I and SOC II certification. Additionally, this can be a costly certificate to obtain. 
 
 
 ## 🤔💡 Thought Process 
@@ -246,6 +246,17 @@ I find myself doing a lot of "... but what if" scenarios like "what if the netwo
     The compliance regulation to adhere to is the GDPR and PCI DSS. The framework that is going to aid them in getting there is the NIST CSF which is mapped in further deatil by resources such as NIST 800, ISO 2700 etc.
 
 
+
+
+</deatils>
+
+## 👀 Spoilers and Personal Review
+<details>
+<summary>Exemplars of Activity</summary> 
+After reviewing the "correct answers" provided (not going to provide them here in case anyone finds this that is enrolled and wants to skip ahead) I have a few take aways. 
+1. I scored things a lot more cautiously, to me having 6 HIGH items for a toy company felt like a lot. I made the report with empathy for the company and getting them a list they could tackle vs what is required by compliance regulations. I should have approached this from an auditors perspective vs an internal leader putting emphasis on what is most important. 
+2. I commpletely overlooked the wording "Proper controls are not in place", I was so focused on regluations that I assumed that that is what was being referred. So I assumed basic technical controls were in place and regulation controls were not. I would change several rankings after this realization. 
+3. I disagree on SOC, it is not a US requirement by law. It does make business easier since a lot of companies ask for the report to vet a company but a TOY COMPANY?!?! They have bigger fish to fry than obtaining that. 
 
 
 </deatils>
