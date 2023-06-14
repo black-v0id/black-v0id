@@ -100,6 +100,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 ### 🔴 HIGH 🔴
 #### Access control policies 
 **Recommendation**
+
 Preform full assesment of existing permissions across sytems and implement RBAC controls. Further more, ensure system has MFA enabled as well as policies that restrict devices and locations that are not used within the company.  
 Will satisfy GDPR requirement for compliance. 
 
