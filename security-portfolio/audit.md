@@ -38,6 +38,7 @@ All information was directly provided by the G00gle Certified Course. Some notes
 ## Risk Assesment 
 ‼️ The following risk assessment was provided to me to assist in my evaluation of controls assessment and formal report. 
 <details>
+    
 ### Description 
 Currently, there is inadequate management of assets. Additionally, the company does not have the proper controls in place and may not be complaint with U.S. and international regulations and standards. 
 
@@ -53,6 +54,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 
 ## Controls Assessment
 <details>
+    
 ### Administrative Controls   
 | Control Name  | Control type and detail | Needs to be implemented (X) | Priority |
 | ------------- | ----------------------- | --------------------------- | -------- |
@@ -90,6 +92,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 | Locks | Preventative; physical and digital assets more secure | X | MEDIUM |
 | Fire detection and prevention | Detective/Preventative; prevents damage to inventory |  |  |
 </details>
+
 ## Summary of Findings
 | Severity | # of Findings |
 | -------- | ------------- |
@@ -100,6 +103,7 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 
 ## Report
 <details>
+    
 ### 🔴 HIGH 🔴
 #### Access control policies 
 **Recommendation**
