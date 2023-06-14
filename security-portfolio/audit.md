@@ -245,12 +245,11 @@ I find myself doing a lot of "... but what if" scenarios like "what if the netwo
 
     The compliance regulation to adhere to is the GDPR and PCI DSS. The framework that is going to aid them in getting there is the NIST CSF which is mapped in further deatil by resources such as NIST 800, ISO 2700 etc.
 
-
-
-
 </deatils>
 
+
 ## 👀 Spoilers and Personal Review
+
 <details>
 <summary>Exemplars of Activity</summary> 
 After reviewing the "correct answers" provided (not going to provide them here in case anyone finds this that is enrolled and wants to skip ahead) I have a few take aways. 
