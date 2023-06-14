@@ -259,4 +259,4 @@ After reviewing the "correct answers" provided (not going to provide them here i
 3. I disagree on SOC, it is not a US requirement by law. It does make business easier since a lot of companies ask for the report to vet a company but a TOY COMPANY?!?! They have bigger fish to fry than obtaining that. 
 
 
-</deatils>
+</details>
