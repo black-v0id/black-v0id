@@ -253,7 +253,7 @@ I find myself doing a lot of "... but what if" scenarios like "what if the netwo
 <details>
 <summary>Exemplars of Activity</summary> 
 After reviewing the "correct answers" provided (not going to provide them here in case anyone finds this that is enrolled and wants to skip ahead) I have a few take aways. 
-/
+
 
     1. I scored things a lot more cautiously, to me having 6 HIGH items for a toy company felt like a lot. I made the report with empathy for the company and getting them a list they could tackle vs what is required by compliance regulations. I should have approached this from an auditors perspective vs an internal leader putting emphasis on what is most important. 
     2. I commpletely overlooked the wording "Proper controls are not in place", I was so focused on regluations that I assumed that that is what was being referred. So I assumed basic technical controls were in place and regulation controls were not. I would change several rankings after this realization. 
