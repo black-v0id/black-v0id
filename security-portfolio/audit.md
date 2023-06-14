@@ -231,10 +231,10 @@ I find myself doing a lot of "... but what if" scenarios like "what if the netwo
 
 ❓ what are the biggest risks to the organization?
 
-    - Legacy system management - that takes time and manpower which takes away from other tasks /
-    - Business continuity outages via lack of controls & procedures - bringing in new team members is challenging and so is communicating with other departments due to a lack of policies, procedures and unified controls /
-    - Security misconfiguration - if they aren't sure what the controls are/where the assets are then they have a major hole in the system for visibility /
-    - Compliance risk - if they are expanding into EU they must comply with GDPR before conducting business /
+    - Legacy system management - that takes time and manpower which takes away from other tasks 
+    - Business continuity outages via lack of controls & procedures - bringing in new team members is challenging and so is communicating with other departments due to a lack of policies, procedures and unified controls 
+    - Security misconfiguration - if they aren't sure what the controls are/where the assets are then they have a major hole in the system for visibility 
+    - Compliance risk - if they are expanding into EU they must comply with GDPR before conducting business and PCI DSS can be a heafty regulation to implement if they have not started/designed around the requirements within
 
 ❓ which controls are most essential to implement immediately vs in the future?
 
