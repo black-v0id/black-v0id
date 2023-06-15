@@ -53,7 +53,6 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 </details>
 
 ## Controls Assessment
-<details>
     
 ### Administrative Controls   
 | Control Name  | Control type and detail | Needs to be implemented (X) | Priority |
@@ -91,7 +90,6 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 | Signage indicating alarm service provider | Deterrent |  |  |
 | Locks | Preventative; physical and digital assets more secure | X | MEDIUM |
 | Fire detection and prevention | Detective/Preventative; prevents damage to inventory |  |  |
-</details>
 
 ## Summary of Findings
 | Severity | # of Findings |
@@ -105,75 +103,49 @@ The potential impact from the loss of an asset is rated as MEDIUM, IT is unaware
 <details>
     
 ### 🔴 HIGH 🔴
-#### Access control policies 
-**Recommendation**
-
+#### 1. Access control policies 
 Preform full assesment of existing permissions across sytems and implement RBAC controls. Further more, ensure system has MFA enabled as well as policies that restrict devices and locations that are not used within the company.  
 Will satisfy GDPR requirement for compliance. 
 
-#### Seperation of duties 
-**Recommendation**
-
+#### 2. Seperation of duties 
 Reassess current job descriptions and duties held by existing staff. Based on review take necessary action such as expanding access, taking away access, creating new procedures, hiring in new staff, etc. 
 
-#### Encryption 
-**Recommendation**
-
+#### 3. Encryption 
 Ensure all critical assets and data are encrypted, particularly customer databases that include indentifying informaiton. This is a requirement for PCI DSS compliance. 
 
-#### Anti Virus Software
-**Recommendation**
-
+#### 4. Anti Virus Software
 While taking inventory of assets, install anti-virus to protect devices from malicious intent. 
 
-#### Manual monitoring, maintenance, intervention 
-**Recommendation**
-
+#### 5. Manual monitoring, maintenance, intervention 
 Take necessary steps to upgrade/destroy assets which are considered legacy and add unnecessary strain to the IT team for management. 
 Any legacy system that is an accepted risk should take all other cautions available such as segrgating it from the network, ensuring proper access and passwords, frequent audits of system. 
 
-#### Locking cabinets (network gear)
-**Recommendation**
-
+#### 6. Locking cabinets (network gear)
 Ensure networking gear is accounted for an accessible only by IT and necessary C suite members.
 
 
 ### 🟠 MEDIUM 🟠
-#### Account management policies 
-**Recommendation** 
-
+#### 1. Account management policies 
 Establish policies and procedures so that there is a clear understanding amoung key stakeholders and IT deptment on what to expect from account creation, to account management, to account termination. 
 
-#### Least Privilege 
-**Recommendation** 
-
+#### 2. Least Privilege 
 Implement this core security principle to reduce attack surface and secure assets. 
 
-#### Backups
-**Recommendation**
-
+#### 3. Backups
 To protect data implement strategy to preform backups of critical assets. 
 
-#### Locks
-**Recommendation**
-
+#### 4. Locks
 Create secure area for IT team to house un-used physical assets to aid in keeping track of such assets.
 
 ### 🟡 LOW 🟡
-#### Disaster recovery  
-**Recommendation** 
-
+#### 1. Disaster recovery  
 Develop a disaster recovery plan, while not explicity required by the GDPR it is empasized that there should be a appropriate security measures and ability to restore data in timely manner following incident. 
 Disaster recovery is considered best practice for ensuring business continuity, minimizing down time and protecting critical data/systems. 
 
-#### Intrusion Detection System
-**Recommendation**
-
+#### 2. Intrusion Detection System
 Implement IDS to assit IT team in having a way to detect threats, respond to incidents, get visibility on the network, and meet the requirement of the GDPR to implement technical measures to ensure the security of personal data.
 
-#### CCTV
-**Recommendation**
-
+#### 3. CCTV
 Implement at headquarters to assist in identifying any security incident on site. 
 </details>
 
@@ -323,9 +295,9 @@ I find myself doing a lot of "... but what if" scenarios like "what if the netwo
 After reviewing the "correct answers" provided (not going to provide them here in case anyone finds this that is enrolled and wants to skip ahead) I have a few take aways. 
 
 
-    1. I scored things a lot more cautiously, to me having 6 HIGH items for a toy company felt like a lot. I made the report with empathy for the company and getting them a list they could tackle vs what is required by compliance regulations. I should have approached this from an auditors perspective vs an internal leader putting emphasis on what is most important. 
-    2. I commpletely overlooked the wording "Proper controls are not in place", I was so focused on regluations that I assumed that that is what was being referred. So I assumed basic technical controls were in place and regulation controls were not. I would change several rankings after this realization. 
-    3. I disagree on SOC, it is not a US requirement by law. It does make business easier since a lot of companies ask for the report to vet a company but a TOY COMPANY?!?! They have bigger fish to fry than obtaining that. 
+1. I scored things a lot more cautiously, to me having 6 HIGH items for a toy company felt like a lot. I made the report with empathy for the company and getting them a list they could tackle vs what is required by compliance regulations. I should have approached this from an auditors perspective vs an internal leader putting emphasis on what is most important. 
+2. I commpletely overlooked the wording "Proper controls are not in place", I was so focused on regluations that I assumed that that is what was being referred. So I assumed basic technical controls were in place and regulation controls were not. I would change several rankings after this realization. 
+3. I disagree on SOC, it is not a US requirement by law. It does make business easier since a lot of companies ask for the report to vet a company but a TOY COMPANY?!?! They have bigger fish to fry than obtaining that. 
 
 
 </details>
