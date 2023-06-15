@@ -16,7 +16,7 @@ Preform an audit of companys cybersecurity prorgam. The audit must align to curr
     - firewalls
     - intrustion detection
     - SIEM tool
-- Evaluate existing user permissions, controls, procedures, and protocols in place allign with NIST CSF and GDPR copliance requirements
+- Evaluate existing user permissions, controls, procedures, and protocols in place allign with industry standards and best practices
 
 ### Deliverables
 - Adhere to NIST CSF
@@ -180,6 +180,7 @@ Implement at headquarters to assist in identifying any security incident on site
 ## Compliance Checklist
 The following section is an anlysis to critically identify which compliance regulations this ficticious company must comply to. 
 
+<details>
 ### ❌ FREC-NERC
 This regulation is not required to be met by the company because it does not work with electricty or is involved with the US power grid. 
 
@@ -194,6 +195,65 @@ This regulation is not required to be met by the company because it does not wor
 
 ### ❌ SOC type 1, SOC type 2
 This regulation is not required, however it is strongly encouraged to look to this documentation for guidance. Being that the company is a toy company it is not imperative that they seek out SOC I and SOC II certification. Additionally, this can be a costly certificate to obtain. 
+</details>
+
+## Stakeholder Memorandum
+The following fictional email was drafted after viewing the exemplar and taking note from suggested critical rankings + my learned false assumptions. I also went rogue from the provided template. I believe a good audit will include a summary of why the control is necessary and therefore does not need to be listed in an email, the report would be attached. Also the activity made suggestions for the length of the email and in my opinion would have been far to long for anyone to read all the way through, I have shortened and condensed. 
+<details>
+<summary>Internal IT Audit Findings and Recommendations</summary> 
+    
+> TO: IT Manager, Stakeholders
+> 
+> FROM: Karen G
+> 
+> DATE: June 14 2023
+> 
+> SUBJECT: Internal IT Audit Findings and Recommendations
+
+
+Hey everyone, 
+
+We recently conducted an internal audit of Botium Toys, I have included my condensed thoughts and attached the audit report for more details and context. 
+
+**;TLDR/Summary**
+
+We have quite the list of high priority items to address. I believe the department can tackle several items, including password policies, but not all this quarter. 
+The IT department will begin project scoping and request funds for the following systems: antivirus, IDS, password management system, CCTV. 
+I believe that with these efforts and given the current projects in the pipeline IT can accomplish most of our goals by end of year but will need support from you all. 
+
+🔍 **Audit Scope**
+
+Evaluate existing user permissions, controls, procedures, and protocols across IT systems. Validate that we are alligned with industry best practices as well as the required regulations GDPR (EU law on data protection and privacy) and PCI DSS (information security standard used to handle credit card data). 
+
+🏆 **IT Goals**
+- Adhere to NIST CSF
+- Establish better process for systems to ensure they are compliant
+- Fortify system controls
+- Establish policies and procedures, including playbooks
+- Ensure meeting compliance requirements
+
+‼️ **Critical Findings (must be addressed immediately)**
+
+The attached report will have the full list of HIGH priority items including details on the importance of each item. I have analyzyed the list and parsed it down to the top 7 items that we can for sure address this quarter that will significantly improve our security posture. 
+- password polices
+- encryption
+- backups
+- locks
+- seperation of duties
+- draft of disaster recovery plan
+- access control polices
+
+⚠️ **Findings Requiring Additional Processes**
+
+The following list is items that I strongly believe we should implement this year but will require a project definition and addition funding approval.
+- antivirus
+- IDS
+- password managment system
+- CCTV
+
+All the best, 
+K
+</details>
 
 
 ## 🤔💡 Thought Process 
