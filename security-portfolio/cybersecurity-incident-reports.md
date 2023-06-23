@@ -108,10 +108,13 @@ Your job is to document the incident in detail, including identifying the networ
 
 ## Report
 Section 1: Identify the network protocol involved in the incident
+
 Incident was investigated at 14:18 within an isolated sandbox environment segrated from business operations. Our packet sniffer, tcpdump, indicated that the system was compromised using communication protocols within the application TCP/IP layer. The specifc protocol in question is HTTP, port 80. 
 
 Section 2: Document the incident
+
 Roughly around the time of 14:10 on Friday June 23 the company recieved 3rd party reports that upon visiting our company website individuals were prompted to download a file as well as received prompts to update their browser. Preforming these actions resulted in visitors personal devices exhibiting degraded preformance.
+
 Concurrent immediate actions were taken by the following teams:
 - The website owner investigated the website portal and discovered a lockout on the account. They have reached out to our web hosting provider to regain access. 
 - The network security analysts took action to investigate the reported incident by creating a sandbox environment, an environment segregated from normal business operation systems, and preforming the actions reported. At 14:18 the team ran a network analyzer and confirmed the reported behavior to be accurate. Upon investigating the log data it has been uncovered that after connecting to yummyrecipiesforme.com a HTTP (port 80) GET request is sent out which then completes 2 minuted later at 14:20. This indicates the background download occuring. After the download completes, network traffic is being redirected to the domain greatrecipiesforme.com which is a domain we do not own or manage.
@@ -124,11 +127,12 @@ In summary; an incident occured at "a few hours earlier than 14:10" on Friday Ju
 
 
 Section 3: Recommend one remediation for brute force attacks
+
 The security team is recommending a full audit of admin accounts on critical infrastructure and ensuring the username and password are:
 - not default
 - meet password requirements of 14 in length, minimum 1 symbol, minimum 1 capital, minimum 1 number
 - not easily gussable i.e. "password4webserver"
 
-Additional actions to be taken include: implemneting 2FA, auditing who has access to admin accounts, limiting number of login attempts and monitoring login attempts. 
+Additional actions to be taken include: upgrading protocols to HTTPS, implemneting 2FA, auditing who has access to admin accounts, limiting number of login attempts and monitoring login attempts. 
 
 
