@@ -39,7 +39,7 @@ As an immediate action, the incident management team responded by blocking incom
 In the event a malicious ICMP attack slips through the newly implemented systems, the team will recover from a network outage by employing industry best practices and communicating amongst key team members in order to restore the system to a normal functioning state. 
 
 
-## Reflection/Notes
+## 🤔 Reflection/Notes
 Summary: I liked how they specifically referenced the team that identified the problem as well as the resolution since this scenario is working from the aftermath side of things. I have updated my section to include these modifications. i think their example should have mentioned the duration to get a scope on the impact. 
 
 Identify: their example was shorter... but with my experience I like the details I added for context. I'm also starting to recognize some overlap, is it imperative to add "resources were secured and restored to functioning state" if that is addressed in the respond section? Or I guess I am recognizing that given the context and situation of the reports purpose each section takes on a different purpose. 
@@ -48,4 +48,4 @@ Protect: aha. I see how the scenario subtly added context while allowing student
 
 Respond: mmm. I see. Again more of a response to the new system put in place and not necessarily what did happen. I different lense that I wasn't seeing at the time of writing this up. Changes have been made to reflect this. 
 
-Revocer: THier example just restates the same things mentioned in respond, not sure I like the repitition but also I was grasping for words to add to this section and kept landing at "get the system running via discussed methods?". I can recognize why the repition is important in this case. 
+Recover: Thier example just restates the same things mentioned in respond, not sure I like the repitition but also I was grasping for words to add to this section and kept landing at "get the system running via discussed methods?". I can recognize why the repition is important in this case. 
