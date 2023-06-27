@@ -136,3 +136,39 @@ The security team is recommending a full audit of admin accounts on critical inf
 Additional actions to be taken include: upgrading protocols to HTTPS, implemneting 2FA, auditing who has access to admin accounts, limiting number of login attempts and monitoring login attempts. 
 
 
+# Cybersecurity Incident Report: Analysis of Network
+## Background
+Review the following scenario. Then complete the step-by-step instructions.
+
+You are a security analyst working for a social media organization. The organization recently experienced a major data breach, which compromised the safety of their customers’ personal information, such as names and addresses. Your organization wants to implement strong network hardening practices that can be performed consistently to prevent attacks and breaches in the future. 
+
+After inspecting the organization’s network, you discover four major vulnerabilities. The four vulnerabilities are as follows:
+
+1. The organization’s employees' share passwords.
+2. The admin password for the database is set to the default
+3. The firewalls do not have rules in place to filter traffic coming in and out of the network.
+4. Multifactor authentication (MFA) is not used. 
+
+If no action is taken to address these vulnerabilities, the organization is at risk of experiencing another data breach or other attacks in the future. 
+
+In this activity, you will write a security risk assessment to analyze the incident and explain what methods can be used to further secure the network.
+
+## Supporting Documents
+
+## Report
+Part 1: select up to three hardening tools and methods to implement
+Three hardening tools the company can use to address the identified vulnerabilities:
+- Firewall maintenance; regularly audit security configurations and update as new threats emerge 
+- Password policies; NIST standards enforcement via automation and policies
+- Baseline configurations; documented set of specifications within a system
+
+Part 2: explain your recommendations
+Upon analyzing the data breach there are 3 key suggestions the security team is recommending for implementation. 
+
+Regular firewall maintenance; by building a cadence in which the team evaluates the current policies and analyzes emerging threats in the industry, as well as potential threats within collected log analysis, will protect against various DoS and DDoS attacks. This is particularly valuable after a security incident. 
+
+Strong password policies; this implementation will ensure that passwords are harder to crack and eliminiate default passwords. This can be accomplished by setting NIST standards (16 length, 3 of 4 major categories) within SaaS applications password fields. Anywhere that policies cannot be enforce should defer to company security documentation that outlines the standard and 
+expectation.
+
+Baseline configurations; this deployment will ensure a documented set of specifications are being applied at creation, validation and any time inbetween. This ensures that all systems meet the desired security level configuration and adds a more holistic approach to security when various teams discuss security must haves. 
+
