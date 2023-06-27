@@ -172,5 +172,5 @@ Regular firewall maintenance; by building a cadence in which the team evaluates 
 Strong password policies; this implementation will ensure that passwords are harder to crack and eliminiate default passwords. This can be accomplished by setting NIST standards (16 length, 3 of 4 major categories) within SaaS applications password fields. Anywhere that policies cannot be enforce should defer to company security documentation that outlines the standard and 
 expectation.
 
-Baseline configurations; this deployment will ensure a documented set of specifications are being applied at creation, validation and any time inbetween. This ensures that all systems meet the desired security level configuration and adds a more holistic approach to security when various teams discuss security must haves. 
+Baseline configurations; this deployment will ensure a documented set of specifications are being applied at creation, validation and any time inbetween. This ensures that scoped systems, typically high priority systems, meet the desired security level configuration and adds a more holistic approach to security when various teams discuss security must haves. 
 
