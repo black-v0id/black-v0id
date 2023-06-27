@@ -1,6 +1,7 @@
 # Cybersecurity Incident Report: Network Traffic Analysis
 ## Background
-Review the scenario below. Then complete the step-by-step instructions.
+<details>
+<summary>Review the following scenario.</summary> 
 
 You are a cybersecurity analyst working at a company that specializes in providing IT consultant services. Several customers contacted your company to report that they were not able to access the company website www.yummyrecipesforme.com, and saw the error “destination port unreachable” after waiting for the page to load. 
 
@@ -25,6 +26,7 @@ Now that you have captured data packets using a network analyzer tool, it is you
 As an analyst, you can inspect network traffic and network data to determine what is causing network-related issues during cybersecurity incidents. Later in this course, you will demonstrate how to manage and resolve incidents. For now, you only need to analyze the situation. 
 
 This incident, in the meantime, is being handled by security engineers after you and other analysts have reported the issue to your direct supervisor. 
+</details>
 
 ## Supporting Documents
 <img width="454" alt="image" src="https://github.com/black-v0id/black-v0id/assets/16123062/38eba332-f507-4c1c-b710-c9e3c8326805">
@@ -42,7 +44,8 @@ We are continuing our investigation of the root cause to determine how to fully 
 
 # Cybersecurity Incident Report: Analyze Network Attack
 ## Background
-Review the following scenario. Then complete the step-by-step instructions.
+<details>
+<summary>Review the following scenario.</summary> 
 
 You work as a security analyst for a travel agency that advertises sales and promotions on the company’s website. The employees of the company regularly access the company’s sales webpage to search for vacation packages their customers might like.
 
@@ -52,6 +55,7 @@ You use a packet sniffer to capture data packets in transit to and from the web 
 
 You take the server offline temporarily so that the machine can recover and return to a normal operating status. You also configure the company’s firewall to block the IP address that was sending the abnormal number of SYN requests. You know that your IP blocking solution won’t last long, as an attacker can spoof other IP addresses to get around this block. You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again. You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees.
 
+</details>
 
 ## Supporting Documents 
 [Wireshark-TCP-HTTP-log.xlsx](https://github.com/black-v0id/black-v0id/files/11826695/UrDIBLUFSlWI3TPdmpE1vw_022112c002f24475a6e2c9e7ebe6f5f1_Wireshark-TCP-HTTP-log.xlsx)
@@ -68,7 +72,8 @@ Due to an influx of requests to the webserver, the server is getting flooded wit
 
 # Cybersecurity Incident Report: OS Security Report
 ## Background 
-Review the scenario below. Then complete the step-by-step instructions.
+<details>
+<summary>Review the following scenario.</summary> 
 
 You are a cybersecurity analyst for yummyrecipesforme.com, a website that sells recipes and cookbooks. A disgruntled baker has decided to publish the website’s best-selling recipes for the public to access for free. 
 
@@ -102,7 +107,11 @@ The cybersecurity team reports that the web server was impacted by a brute force
 
 Your job is to document the incident in detail, including identifying the network protocols used to establish the connection between the user and the website.  You should also recommend a security action to take to prevent brute force attacks in the future.
 
+</details>
+
+
 ## Supporting Documents
+
 <img width="443" alt="image" src="https://github.com/black-v0id/black-v0id/assets/16123062/93a23b31-688a-471a-a5c1-37e0b94c4590">
 <img width="464" alt="image" src="https://github.com/black-v0id/black-v0id/assets/16123062/40b0b300-16b9-45fd-96f7-dde8c0760494">
 
@@ -138,6 +147,8 @@ Additional actions to be taken include: upgrading protocols to HTTPS, implemneti
 
 # Cybersecurity Incident Report: Analysis of Network
 ## Background
+<details>
+<summary>Review the following scenario.</summary> 
 Review the following scenario. Then complete the step-by-step instructions.
 
 You are a security analyst working for a social media organization. The organization recently experienced a major data breach, which compromised the safety of their customers’ personal information, such as names and addresses. Your organization wants to implement strong network hardening practices that can be performed consistently to prevent attacks and breaches in the future. 
@@ -152,8 +163,7 @@ After inspecting the organization’s network, you discover four major vulnerabi
 If no action is taken to address these vulnerabilities, the organization is at risk of experiencing another data breach or other attacks in the future. 
 
 In this activity, you will write a security risk assessment to analyze the incident and explain what methods can be used to further secure the network.
-
-## Supporting Documents
+</details>
 
 ## Report
 Part 1: select up to three hardening tools and methods to implement
