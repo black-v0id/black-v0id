@@ -157,12 +157,14 @@ In this activity, you will write a security risk assessment to analyze the incid
 
 ## Report
 Part 1: select up to three hardening tools and methods to implement
+
 Three hardening tools the company can use to address the identified vulnerabilities:
 - Firewall maintenance; regularly audit security configurations and update as new threats emerge 
 - Password policies; NIST standards enforcement via automation and policies
 - Baseline configurations; documented set of specifications within a system
 
 Part 2: explain your recommendations
+
 Upon analyzing the data breach there are 3 key suggestions the security team is recommending for implementation. 
 
 Regular firewall maintenance; by building a cadence in which the team evaluates the current policies and analyzes emerging threats in the industry, as well as potential threats within collected log analysis, will protect against various DoS and DDoS attacks. This is particularly valuable after a security incident. 
