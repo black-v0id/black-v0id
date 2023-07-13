@@ -1,4 +1,4 @@
-![image](https://github.com/black-v0id/black-v0id/assets/16123062/775e228f-3a35-488c-bb7f-b94ddc153c3d)# Apply Filters to SQL Queries
+# Apply Filters to SQL Queries
 ## Scenario
 You are a security professional at a large organization. Part of your job is to investigate security issues to help keep the system secure. You recently discovered some potential security issues that involve login attempts and employee machines.
 
@@ -29,8 +29,7 @@ SELECT *
 FROM log_in_attempts
 WHERE login_time > '18:00:00' AND success = False;
 ```
-
-![after hours failed login attempts table](image.png)
+![image](https://github.com/black-v0id/black-v0id/assets/16123062/22a67183-01a8-40fc-8481-46e218420c24)
 
 ## Retrieve login attempts on specific dates
 ```
