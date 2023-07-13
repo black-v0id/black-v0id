@@ -78,6 +78,15 @@ ORDER BY office;
 ```
 ![image](https://github.com/black-v0id/black-v0id/assets/16123062/a4502713-660f-4972-b654-1a0e2bc5ec0b)
 
+## Retreive all employees with unsuccessful login attempts and their office location
+```
+SELECT *
+FROM log_in_attempts
+INNER JOIN employees ON log_in_attempts.username = employees.username
+WHERE success = False;
+```
+
+
 
 ## Summary
-I utilized very basic commands to sort database information in order to obtain more contextualized and focused data that would assist in backing up conclusions drawn from various security incidents.  
+Here I have utilized very basic commands intended only to view data (not modify) where I was able to extract specified database information in order to view focused data that would assist me in backing up conclusions drawn from various security incidents.  
