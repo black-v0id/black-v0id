@@ -85,6 +85,7 @@ FROM log_in_attempts
 INNER JOIN employees ON log_in_attempts.username = employees.username
 WHERE success = False;
 ```
+![image](https://github.com/black-v0id/black-v0id/assets/16123062/df108a32-a06a-4545-8949-267a530c9c8a)
 
 
 
