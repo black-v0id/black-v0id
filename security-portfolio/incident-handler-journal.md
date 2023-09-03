@@ -8,7 +8,48 @@
 | 5 W's            | **Who** caused incident: <br> **What** happened: <br> **Where** the incident happened: <br> **When** the incident happend: <br> **Why** the incident happend: <br> |
 | Additional Notes |              | 
 
+## New Tool Template
+### [Tool Name]
+_Description:_ 
+
+_Notes:_
+
 ----
+
+---
+## July 28th, 2023 - #4.5
+### Alert ticket
+(official ticket from below incident)
+| Ticket ID        | Alert Message |  Severity    | Details    | Ticket Status    |
+| ---------------- | --------------| -------------| -----------| -----------------|
+| A-2703           | SERVER-MAIL <br> Phishing attempt, potential malware download | Medium  |  User potentially opened malicious email as well as attached file or clicked on link   | Escalated |
+
+_Ticket Comments:_ Around 1:00pm we recieved an alert that detected a download and open of a malicious file. Upon locating the email in question it can be observed that the sender email (76tguy6hh6tgfrt7tg.su), the name within the email body (Clyde West) and the senders name (Def communications) are all inconsistent; further more the subject and body of the email contain several grammatical errors. The file in question "bfsvc.exe" was attached to the email and opened by the recipient onto the now affected machine. In a previous investigation of the file hash it is confirmed that the exe is a known malicious file. This ticket as been escalted to the SOCII team for further action. 
+
+### Additional Information
+**File Hash:** 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b 
+
+**Email:** 
+```
+From: Def Communications <76tguy6hh6tgfrt7tg.su> <114.114.114.114>
+Sent: Wednesday, July 20 2022 9:30:14 AM
+To: <hr@inergy.com> <176.157.125.93>
+Subject: Re: Infrastructure Egnieer Role
+
+...
+```
+
+
+
+---
+## July 28th, 2023 - #4
+| Event Details    |              |
+| ---------------- | -------------|
+| Description      |      As a SOC1 analyst I have recieved an alert about a suspicious file being downloaded on an employee's computer. The file in question is a password-protected spreadsheet, I have run a <sha256sum> on the file to retrieve the file hash:  54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b       |
+| Tool(s) used     |      VirusTotal        | 
+| 5 W's            | **Who**: end user <br> **What**: opened file attachment in an email that installed an executable <br> **Where**: end user company laptop <br> **When**: 1:00 pm <br> **Why**: user suspected email to be legitimate <br> |
+| Additional Notes |     Majority of vendors flag the file as malicious, upon investigation the file can be pin pointed as the trojan Flagpro utilized by the threat actor group BlackTech. Remediation steps have been taken. <br> ![image](https://github.com/black-v0id/black-v0id/assets/16123062/40766782-9443-46dd-af63-e50b14555082) | 
+
 
 ---
 ## July 27th, 2023 - #3
