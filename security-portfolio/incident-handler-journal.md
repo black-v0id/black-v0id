@@ -15,6 +15,15 @@ _Description:_
 _Notes:_
 
 ----
+---
+## August 4th, 2023 - #5
+### Suricata
+| Event Details    |              |
+| ---------------- | -------------|
+| Description      |  Configure Suricata nd use it to configure alerts. |
+| Tool(s) used     |  Suricata            | 
+| 5 W's            | N/A |
+| Additional Notes | - Reviewed the pre-established rule to confirm that it is an `alert`action, the `header` specifies that it will detect http traffic coming from the home network and going to any external network, and finally the `rule` is configured as a msg for when a GET is preformed as the HTTP method. <br> `alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"GET on wire"; flow:established,to_server; content:"GET"; http_method; sid:12345; rev:3;)` <br> - Ran some precompiled data through suricata and applied the defined filter `sudo suricata -r sample.pcap -S custom.rules -k none` <br> - Examine the fast log <br> - Examine the eve.json file and used advanced query to inprove the output `jq . /var/log/suricata/eve.json [pipe] less` <br> <img width="564" alt="image" src="https://github.com/black-v0id/black-v0id/assets/16123062/e074f863-78d7-4fb5-ba05-ca45717a9679"> | 
 
 ---
 ## July 28th, 2023 - #4.5
